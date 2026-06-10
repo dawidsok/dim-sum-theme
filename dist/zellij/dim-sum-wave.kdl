@@ -1,0 +1,17 @@
+// Dim Sum Wave
+// Generated from scheme/dim-sum-wave.json
+themes {
+    dim-sum-wave {
+        fg "#c9c4aa"
+        bg "#15161b"
+        black "#15161b"
+        red "#b46d6a"
+        green "#8a9a68"
+        yellow "#c1a35f"
+        blue "#738aa8"
+        magenta "#9380a3"
+        cyan "#6a9a95"
+        white "#c9c4aa"
+        orange "#bd8258"
+    }
+}

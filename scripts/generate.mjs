@@ -248,6 +248,88 @@ function generateVSCodePackage(schemes) {
   }, null, 2)}\n`;
 }
 
+function generateZellij() {
+  const entries = [
+    ['fg', token(scheme.ui, 'foreground')],
+    ['bg', token(scheme.ui, 'background')],
+    ['black', token(scheme.ansi, 'black')],
+    ['red', token(scheme.ansi, 'red')],
+    ['green', token(scheme.ansi, 'green')],
+    ['yellow', token(scheme.ansi, 'yellow')],
+    ['blue', token(scheme.ansi, 'blue')],
+    ['magenta', token(scheme.ansi, 'magenta')],
+    ['cyan', token(scheme.ansi, 'cyan')],
+    ['white', token(scheme.ansi, 'white')],
+    ['orange', c.orange],
+  ];
+  const lines = entries.map(([name, value]) => `        ${name} ${q(value)}`).join('\n');
+
+  return `// ${scheme.name}
+// Generated from scheme/${scheme.fileName}
+themes {
+    ${scheme.slug} {
+${lines}
+    }
+}
+`;
+}
+
+function btopThemeLine(name, value) {
+  return `theme[${name}]=${q(value)}`;
+}
+
+function generateBtop() {
+  const entries = [
+    ['main_bg', token(scheme.ui, 'background')],
+    ['main_fg', token(scheme.ui, 'foreground')],
+    ['title', c.white],
+    ['hi_fg', c.blue],
+    ['selected_bg', token(scheme.ui, 'selectionBackground')],
+    ['selected_fg', token(scheme.ui, 'selectionForeground')],
+    ['inactive_fg', c.dim],
+    ['proc_misc', c.cyan],
+    ['graph_text', c.fg1],
+    ['meter_bg', c.bg3],
+    ['cpu_box', c.blue],
+    ['mem_box', c.green],
+    ['net_box', c.cyan],
+    ['proc_box', c.purple],
+    ['div_line', token(scheme.ui, 'border')],
+    ['temp_start', c.green],
+    ['temp_mid', c.yellow],
+    ['temp_end', c.red],
+    ['cpu_start', c.green],
+    ['cpu_mid', c.yellow],
+    ['cpu_end', c.red],
+    ['free_start', c.red],
+    ['free_mid', c.yellow],
+    ['free_end', c.green],
+    ['cached_start', c.blue],
+    ['cached_mid', c.cyan],
+    ['cached_end', c.green],
+    ['available_start', c.red],
+    ['available_mid', c.yellow],
+    ['available_end', c.green],
+    ['used_start', c.green],
+    ['used_mid', c.yellow],
+    ['used_end', c.red],
+    ['download_start', c.blue],
+    ['download_mid', c.cyan],
+    ['download_end', c.green],
+    ['upload_start', c.purple],
+    ['upload_mid', c.magenta],
+    ['upload_end', c.orange],
+    ['process_start', c.green],
+    ['process_mid', c.yellow],
+    ['process_end', c.red],
+  ];
+
+  return `# ${scheme.name}
+# Generated from scheme/${scheme.fileName}
+${entries.map(([name, value]) => btopThemeLine(name, value)).join('\n')}
+`;
+}
+
 function generateNeovim() {
   const p = c;
   const term = [
@@ -349,6 +431,8 @@ for (const loadedScheme of schemes) {
   write(`dist/iterm/${scheme.name}.itermcolors`, generateITerm());
   write(`dist/vscode/themes/${scheme.slug}-color-theme.json`, generateVSCodeTheme());
   write(`dist/neovim/colors/${scheme.slug}.lua`, generateNeovim());
+  write(`dist/zellij/${scheme.slug}.kdl`, generateZellij());
+  write(`dist/btop/${scheme.slug}.theme`, generateBtop());
 }
 
 write('dist/vscode/package.json', generateVSCodePackage(schemes));

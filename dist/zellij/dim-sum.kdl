@@ -1,0 +1,17 @@
+// Dim Sum
+// Generated from scheme/dim-sum.json
+themes {
+    dim-sum {
+        fg "#cecbc1"
+        bg "#111110"
+        black "#111110"
+        red "#a85f59"
+        green "#87965f"
+        yellow "#b3954d"
+        blue "#6f8faf"
+        magenta "#8b7fa8"
+        cyan "#5f9b95"
+        white "#cecbc1"
+        orange "#b77a4a"
+    }
+}

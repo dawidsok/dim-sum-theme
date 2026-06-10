@@ -28,6 +28,8 @@
     "ghostty",
     "iterm2",
     "vscode",
+    "zellij",
+    "btop",
     "flexoki"
   ]
 }

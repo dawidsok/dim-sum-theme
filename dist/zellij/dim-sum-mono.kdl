@@ -1,0 +1,17 @@
+// Dim Sum Mono
+// Generated from scheme/dim-sum-mono.json
+themes {
+    dim-sum-mono {
+        fg "#d0d0d0"
+        bg "#0f0f0f"
+        black "#0f0f0f"
+        red "#9a9a9a"
+        green "#b8b8b8"
+        yellow "#b0b0b0"
+        blue "#acacac"
+        magenta "#a0a0a0"
+        cyan "#c0c0c0"
+        white "#d0d0d0"
+        orange "#a4a4a4"
+    }
+}

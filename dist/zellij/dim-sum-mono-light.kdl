@@ -1,0 +1,17 @@
+// Dim Sum Mono Light
+// Generated from scheme/dim-sum-mono-light.json
+themes {
+    dim-sum-mono-light {
+        fg "#494640"
+        bg "#f0eee8"
+        black "#393630"
+        red "#926767"
+        green "#748064"
+        yellow "#8d8260"
+        blue "#6c7687"
+        magenta "#7e7488"
+        cyan "#657f7c"
+        white "#dcddd4"
+        orange "#927967"
+    }
+}

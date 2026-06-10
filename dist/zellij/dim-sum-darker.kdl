@@ -1,0 +1,17 @@
+// Dim Sum Darker
+// Generated from scheme/dim-sum-darker.json
+themes {
+    dim-sum-darker {
+        fg "#c9c9c9"
+        bg "#111111"
+        black "#111111"
+        red "#a46f6f"
+        green "#82906f"
+        yellow "#a49a6f"
+        blue "#7b8798"
+        magenta "#8d8298"
+        cyan "#71908d"
+        white "#c9c9c9"
+        orange "#a4876f"
+    }
+}

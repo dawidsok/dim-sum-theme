@@ -14,6 +14,8 @@ Supported targets:
 - Ghostty
 - iTerm2
 - VS Code
+- Zellij
+- btop
 
 ## Variants
 
@@ -131,6 +133,32 @@ Import any file from `dist/iterm/`:
 2. Color Presets… → Import…
 3. Select the `.itermcolors` file for the variant you want
 
+### Zellij
+
+```sh
+mkdir -p ~/.config/zellij/themes
+ln -sf "$PWD/dist/zellij/dim-sum.kdl" ~/.config/zellij/themes/dim-sum.kdl
+```
+
+In `~/.config/zellij/config.kdl`:
+
+```kdl
+theme "dim-sum"
+```
+
+### btop
+
+```sh
+mkdir -p ~/.config/btop/themes
+ln -sf "$PWD/dist/btop/dim-sum.theme" ~/.config/btop/themes/dim-sum.theme
+```
+
+In btop, set the theme to `dim-sum` from Options → Color theme, or edit `~/.config/btop/btop.conf`:
+
+```ini
+color_theme = "dim-sum"
+```
+
 ### VS Code
 
 Symlink or copy the generated extension folder:
@@ -155,7 +183,7 @@ npm run build
 npm run check
 ```
 
-Theme definitions live in `scheme/*.json`. `scripts/generate.mjs` generates target-specific files in `dist/`, and `scripts/screenshot.mjs` generates terminal-style screenshots in `assets/screenshots/`.
+Theme definitions live in `scheme/*.json`. `scripts/generate.mjs` generates target-specific files in `dist/` for Neovim, Ghostty, iTerm2, VS Code, Zellij, and btop. `scripts/screenshot.mjs` generates terminal-style screenshots in `assets/screenshots/`.
 
 ## Security
 

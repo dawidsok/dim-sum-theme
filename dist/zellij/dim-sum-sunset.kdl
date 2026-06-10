@@ -1,0 +1,17 @@
+// Dim Sum Sunset
+// Generated from scheme/dim-sum-sunset.json
+themes {
+    dim-sum-sunset {
+        fg "#d1c6ba"
+        bg "#151312"
+        black "#151312"
+        red "#b5655d"
+        green "#8a9161"
+        yellow "#bd9858"
+        blue "#7890aa"
+        magenta "#aa7488"
+        cyan "#6f9891"
+        white "#d1c6ba"
+        orange "#c27a48"
+    }
+}

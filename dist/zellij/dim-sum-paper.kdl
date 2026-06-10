@@ -1,0 +1,17 @@
+// Dim Sum Paper
+// Generated from scheme/dim-sum-paper.json
+themes {
+    dim-sum-paper {
+        fg "#4b4740"
+        bg "#f7f6f1"
+        black "#3b3832"
+        red "#985f5b"
+        green "#687a5a"
+        yellow "#8b7b52"
+        blue "#637c99"
+        magenta "#766f8d"
+        cyan "#5f807d"
+        white "#e6e2d9"
+        orange "#9a7252"
+    }
+}
