@@ -1,0 +1,22 @@
+{
+  "name": "dim-sum-theme",
+  "displayName": "Dim Sum Theme",
+  "description": "A dim Flexoki-inspired warm dark theme with calm UI and muted syntax color.",
+  "version": "0.1.0",
+  "publisher": "dawidsok",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dim Sum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dim-sum-color-theme.json"
+      }
+    ]
+  }
+}

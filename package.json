@@ -1,0 +1,32 @@
+{
+  "name": "dim-sum-theme",
+  "version": "0.1.0",
+  "description": "Dim Sum: a dim Flexoki-inspired theme for terminals and editors.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Dawid Sokół",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawidsok/dim-sum-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dawidsok/dim-sum-theme/issues"
+  },
+  "homepage": "https://github.com/dawidsok/dim-sum-theme#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/generate.mjs",
+    "check": "node scripts/generate.mjs --check"
+  },
+  "keywords": [
+    "theme",
+    "colorscheme",
+    "neovim",
+    "ghostty",
+    "iterm2",
+    "vscode",
+    "flexoki"
+  ]
+}

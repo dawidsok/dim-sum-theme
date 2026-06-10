@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Generic color scheme definition",
+  "type": "object",
+  "required": ["name", "slug", "appearance", "colors", "ansi", "ui", "syntax"],
+  "properties": {
+    "name": { "type": "string" },
+    "slug": { "type": "string" },
+    "appearance": { "enum": ["dark", "light"] },
+    "description": { "type": "string" },
+    "colors": { "type": "object", "additionalProperties": { "type": "string", "pattern": "^#[0-9a-fA-F]{6}$" } },
+    "ansi": { "type": "object", "additionalProperties": { "type": "string" } },
+    "ui": { "type": "object", "additionalProperties": { "type": "string" } },
+    "syntax": { "type": "object", "additionalProperties": { "type": "string" } }
+  }
+}
