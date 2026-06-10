@@ -1,0 +1,24 @@
+# Dim Sum Mono Light
+# Generated from scheme/dim-sum-mono-light.json
+palette = 0=#393630
+palette = 1=#926767
+palette = 2=#748064
+palette = 3=#8d8260
+palette = 4=#6c7687
+palette = 5=#7e7488
+palette = 6=#657f7c
+palette = 7=#dcddd4
+palette = 8=#746f66
+palette = 9=#a87878
+palette = 10=#849273
+palette = 11=#a09470
+palette = 12=#7d889c
+palette = 13=#90849c
+palette = 14=#75918d
+palette = 15=#f0eee8
+background = #f0eee8
+foreground = #494640
+cursor-color = #24231f
+cursor-text = #f0eee8
+selection-background = #cbc7bc
+selection-foreground = #24231f

@@ -1,7 +1,7 @@
 {
   "name": "dim-sum-theme",
   "displayName": "Dim Sum Theme",
-  "description": "A dim Flexoki-inspired warm dark theme with calm UI and muted syntax color.",
+  "description": "Dim Sum themes for terminals and editors.",
   "version": "0.1.0",
   "publisher": "dawidsok",
   "engines": {
@@ -16,6 +16,31 @@
         "label": "Dim Sum",
         "uiTheme": "vs-dark",
         "path": "./themes/dim-sum-color-theme.json"
+      },
+      {
+        "label": "Dim Sum Mono Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dim-sum-mono-dark-color-theme.json"
+      },
+      {
+        "label": "Dim Sum Mono Light",
+        "uiTheme": "vs",
+        "path": "./themes/dim-sum-mono-light-color-theme.json"
+      },
+      {
+        "label": "Dim Sum Paper",
+        "uiTheme": "vs",
+        "path": "./themes/dim-sum-paper-color-theme.json"
+      },
+      {
+        "label": "Dim Sum Sunset",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dim-sum-sunset-color-theme.json"
+      },
+      {
+        "label": "Dim Sum Wave",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dim-sum-wave-color-theme.json"
       }
     ]
   }

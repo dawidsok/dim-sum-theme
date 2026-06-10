@@ -4,8 +4,26 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const check = process.argv.includes('--check');
-const scheme = JSON.parse(fs.readFileSync(path.join(root, 'scheme/dim-sum.json'), 'utf8'));
-const c = scheme.colors;
+const schemeDir = path.join(root, 'scheme');
+let scheme;
+let c;
+
+function loadScheme(fileName) {
+  scheme = JSON.parse(fs.readFileSync(path.join(schemeDir, fileName), 'utf8'));
+  scheme.fileName = fileName;
+  c = scheme.colors;
+  return scheme;
+}
+
+function schemeFiles() {
+  return fs.readdirSync(schemeDir)
+    .filter((fileName) => fileName.endsWith('.json') && fileName !== 'schema.json')
+    .sort((a, b) => {
+      if (a === 'dim-sum.json') return -1;
+      if (b === 'dim-sum.json') return 1;
+      return a.localeCompare(b);
+    });
+}
 
 function color(token) {
   if (token.startsWith('#')) return token;
@@ -78,7 +96,7 @@ function generateGhostty() {
   ].map((name, i) => `palette = ${i}=${token(scheme.ansi, name)}`);
 
   return `# ${scheme.name}
-# Generated from scheme/dim-sum.json
+# Generated from scheme/${scheme.fileName}
 ${ansi.join('\n')}
 background = ${token(scheme.ui, 'background')}
 foreground = ${token(scheme.ui, 'foreground')}
@@ -118,7 +136,7 @@ function generateVSCodeTheme() {
   const s = scheme.syntax;
   const theme = {
     name: scheme.name,
-    type: 'dark',
+    type: scheme.appearance,
     semanticHighlighting: true,
     colors: {
       'editor.background': token(scheme.ui, 'background'),
@@ -211,23 +229,21 @@ function generateVSCodeTheme() {
   return `${JSON.stringify(theme, null, 2)}\n`;
 }
 
-function generateVSCodePackage() {
+function generateVSCodePackage(schemes) {
   return `${JSON.stringify({
     name: 'dim-sum-theme',
     displayName: 'Dim Sum Theme',
-    description: scheme.description,
+    description: 'Dim Sum themes for terminals and editors.',
     version: '0.1.0',
     publisher: 'dawidsok',
     engines: { vscode: '^1.80.0' },
     categories: ['Themes'],
     contributes: {
-      themes: [
-        {
-          label: scheme.name,
-          uiTheme: 'vs-dark',
-          path: './themes/dim-sum-color-theme.json',
-        },
-      ],
+      themes: schemes.map((s) => ({
+        label: s.name,
+        uiTheme: s.appearance === 'light' ? 'vs' : 'vs-dark',
+        path: `./themes/${s.slug}-color-theme.json`,
+      })),
     },
   }, null, 2)}\n`;
 }
@@ -265,11 +281,11 @@ function generateNeovim() {
     ['Error', { fg: p.red, bold: true }], ['Todo', { fg: p.bg, bg: p.yellow, bold: true }],
 
     ['DiagnosticError', { fg: p.red }], ['DiagnosticWarn', { fg: p.yellow }], ['DiagnosticInfo', { fg: p.blue }], ['DiagnosticHint', { fg: p.cyan }], ['DiagnosticOk', { fg: p.green }],
-    ['DiagnosticVirtualTextError', { fg: p.red, bg: '#211817' }], ['DiagnosticVirtualTextWarn', { fg: p.yellow, bg: '#211d14' }],
-    ['DiagnosticVirtualTextInfo', { fg: p.blue, bg: '#171b20' }], ['DiagnosticVirtualTextHint', { fg: p.cyan, bg: '#16201e' }],
+    ['DiagnosticVirtualTextError', { fg: p.red, bg: p.bg1 }], ['DiagnosticVirtualTextWarn', { fg: p.yellow, bg: p.bg1 }],
+    ['DiagnosticVirtualTextInfo', { fg: p.blue, bg: p.bg1 }], ['DiagnosticVirtualTextHint', { fg: p.cyan, bg: p.bg1 }],
     ['DiagnosticUnderlineError', { sp: p.red, undercurl: true }], ['DiagnosticUnderlineWarn', { sp: p.yellow, undercurl: true }],
     ['DiagnosticUnderlineInfo', { sp: p.blue, undercurl: true }], ['DiagnosticUnderlineHint', { sp: p.cyan, undercurl: true }],
-    ['DiffAdd', { fg: p.green, bg: '#182016' }], ['DiffChange', { fg: p.yellow, bg: '#211d14' }], ['DiffDelete', { fg: p.red, bg: '#211817' }], ['DiffText', { fg: p.white, bg: p.bg4 }],
+    ['DiffAdd', { fg: p.green, bg: p.bg1 }], ['DiffChange', { fg: p.yellow, bg: p.bg1 }], ['DiffDelete', { fg: p.red, bg: p.bg1 }], ['DiffText', { fg: p.white, bg: p.bg4 }],
     ['Added', { fg: p.green }], ['Changed', { fg: p.yellow }], ['Removed', { fg: p.red }], ['GitSignsAdd', { fg: p.green }], ['GitSignsChange', { fg: p.yellow }], ['GitSignsDelete', { fg: p.red }],
 
     ['@comment', { link: 'Comment' }], ['@variable', { fg: p.fg }], ['@variable.builtin', { fg: p.orange }], ['@variable.parameter', { fg: p.fg1 }], ['@variable.member', { fg: p.cyan }],
@@ -304,7 +320,7 @@ function generateNeovim() {
 
   const groupLines = groups.map(([name, spec]) => `hi(${q(name)}, ${luaTable(spec)})`).join('\n');
   return `-- ${scheme.name}
--- Generated from scheme/dim-sum.json. Do not edit generated output directly.
+-- Generated from scheme/${scheme.fileName}. Do not edit generated output directly.
 vim.cmd.highlight("clear")
 
 if vim.fn.exists("syntax_on") == 1 then
@@ -324,8 +340,15 @@ ${groupLines}
 `;
 }
 
-write('dist/ghostty/dim-sum', generateGhostty());
-write('dist/iterm/Dim Sum.itermcolors', generateITerm());
-write('dist/vscode/package.json', generateVSCodePackage());
-write('dist/vscode/themes/dim-sum-color-theme.json', generateVSCodeTheme());
-write('dist/neovim/colors/dim-sum.lua', generateNeovim());
+const schemes = schemeFiles().map(loadScheme);
+
+for (const loadedScheme of schemes) {
+  scheme = loadedScheme;
+  c = scheme.colors;
+  write(`dist/ghostty/${scheme.slug}`, generateGhostty());
+  write(`dist/iterm/${scheme.name}.itermcolors`, generateITerm());
+  write(`dist/vscode/themes/${scheme.slug}-color-theme.json`, generateVSCodeTheme());
+  write(`dist/neovim/colors/${scheme.slug}.lua`, generateNeovim());
+}
+
+write('dist/vscode/package.json', generateVSCodePackage(schemes));

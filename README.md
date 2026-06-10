@@ -1,6 +1,6 @@
 # Dim Sum
 
-Dim Sum is a dim, Flexoki-inspired dark theme for terminals and editors. It uses a warm background, calm UI surfaces, and muted syntax colors.
+Dim Sum is a family of dim themes for terminals and editors. The palettes favor calm UI surfaces, muted syntax colors, and only subtle warmth.
 
 Supported targets:
 
@@ -9,13 +9,47 @@ Supported targets:
 - iTerm2
 - VS Code
 
-## Preview palette
+## Variants
+
+### Dim Sum
+
+![Dim Sum terminal screenshot](assets/screenshots/dim-sum.svg)
+
+### Dim Sum Paper
+
+A barely-white, steam-bun-paper light variant.
+
+![Dim Sum Paper terminal screenshot](assets/screenshots/dim-sum-paper.svg)
+
+### Dim Sum Wave
+
+An ink-and-wave dark variant.
+
+![Dim Sum Wave terminal screenshot](assets/screenshots/dim-sum-wave.svg)
+
+### Dim Sum Sunset
+
+A dim dark variant with subtle dusk warmth and ember accents.
+
+![Dim Sum Sunset terminal screenshot](assets/screenshots/dim-sum-sunset.svg)
+
+### Dim Sum Mono Dark
+
+![Dim Sum Mono Dark terminal screenshot](assets/screenshots/dim-sum-mono-dark.svg)
+
+### Dim Sum Mono Light
+
+![Dim Sum Mono Light terminal screenshot](assets/screenshots/dim-sum-mono-light.svg)
+
+Available slugs:
 
 ```text
-bg      #100f0f   bg1    #1c1b1a   bg2    #282726   bg3    #343331
-fg      #cecdc3   white  #e6e4d9   dim    #575653   mid    #878580
-red     #a85f59   green  #87965f   yellow #b3954d   blue   #6f8faf
-purple  #8b7fa8   cyan   #5f9b95   orange #b77a4a
+dim-sum
+dim-sum-paper
+dim-sum-wave
+dim-sum-sunset
+dim-sum-mono-dark
+dim-sum-mono-light
 ```
 
 ## Install
@@ -27,11 +61,11 @@ git clone https://github.com/dawidsok/dim-sum-theme.git ~/.local/share/dim-sum-t
 cd ~/.local/share/dim-sum-theme
 ```
 
-Generated theme files are committed in `dist/`, so you can use the theme without running a build.
+Generated theme files are committed in `dist/`, so you can use the themes without running a build.
 
 ### Neovim
 
-Copy or symlink the generated colorscheme into your config:
+Copy or symlink the generated colorscheme into your config. Replace `dim-sum` with any variant slug.
 
 ```sh
 mkdir -p ~/.config/nvim/colors
@@ -74,11 +108,11 @@ theme = dim-sum
 
 ### iTerm2
 
-Import `dist/iterm/Dim Sum.itermcolors`:
+Import any file from `dist/iterm/`:
 
 1. iTerm2 → Settings → Profiles → Colors
 2. Color Presets… → Import…
-3. Select `dist/iterm/Dim Sum.itermcolors`
+3. Select the `.itermcolors` file for the variant you want
 
 ### VS Code
 
@@ -89,7 +123,7 @@ mkdir -p ~/.vscode/extensions
 ln -sfn "$PWD/dist/vscode" ~/.vscode/extensions/dim-sum-theme
 ```
 
-Then run **Developer: Reload Window** and choose **Dim Sum** from the color theme picker.
+Then run **Developer: Reload Window** and choose a Dim Sum variant from the color theme picker.
 
 ## Build
 
@@ -104,7 +138,7 @@ npm run build
 npm run check
 ```
 
-`scheme/dim-sum.json` is the source of truth. `scripts/generate.mjs` generates the target-specific files in `dist/`.
+Theme definitions live in `scheme/*.json`. `scripts/generate.mjs` generates target-specific files in `dist/`, and `scripts/screenshot.mjs` generates terminal-style screenshots in `assets/screenshots/`.
 
 ## Security
 

@@ -1,0 +1,24 @@
+# Dim Sum Mono Dark
+# Generated from scheme/dim-sum-mono-dark.json
+palette = 0=#111111
+palette = 1=#a46f6f
+palette = 2=#82906f
+palette = 3=#a49a6f
+palette = 4=#7b8798
+palette = 5=#8d8298
+palette = 6=#71908d
+palette = 7=#c9c9c9
+palette = 8=#565656
+palette = 9=#bb8383
+palette = 10=#95a482
+palette = 11=#b9ae82
+palette = 12=#8e9aae
+palette = 13=#a195ae
+palette = 14=#84a4a0
+palette = 15=#eeeeee
+background = #111111
+foreground = #c9c9c9
+cursor-color = #eeeeee
+cursor-text = #111111
+selection-background = #303030
+selection-foreground = #eeeeee

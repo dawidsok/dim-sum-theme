@@ -1,0 +1,24 @@
+# Dim Sum Wave
+# Generated from scheme/dim-sum-wave.json
+palette = 0=#15161b
+palette = 1=#b46d6a
+palette = 2=#8a9a68
+palette = 3=#c1a35f
+palette = 4=#738aa8
+palette = 5=#9380a3
+palette = 6=#6a9a95
+palette = 7=#c9c4aa
+palette = 8=#545666
+palette = 9=#cf807b
+palette = 10=#9dae77
+palette = 11=#d3b46d
+palette = 12=#859dbc
+palette = 13=#a491b8
+palette = 14=#7db0ab
+palette = 15=#e7dfc6
+background = #15161b
+foreground = #c9c4aa
+cursor-color = #e7dfc6
+cursor-text = #15161b
+selection-background = #30313a
+selection-foreground = #e7dfc6

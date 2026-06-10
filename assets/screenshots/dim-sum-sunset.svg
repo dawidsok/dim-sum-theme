@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace" font-size="10" xml:space="preserve" role="img" aria-labelledby="title desc">
+  <title id="title">Dim Sum Sunset terminal screenshot</title>
+  <desc id="desc">Terminal-style generated screenshot for Dim Sum Sunset.</desc>
+  <rect x="0" y="0" width="500" height="300" fill="#151312" />
+
+  <circle cx="12" cy="12" r="4" fill="#b5655d" />
+  <circle cx="25" cy="12" r="4" fill="#bd9858" />
+  <circle cx="38" cy="12" r="4" fill="#8a9161" />
+
+  <text x="90" y="15" fill="#8d7d6f" font-size="8" text-anchor="middle">~</text>
+  <text x="138" y="16" font-size="14" fill="#d1c6ba">+</text>
+  <rect x="50" y="24" width="80" height="1" fill="#c27a48" />
+  <rect x="0" y="24" width="500" height="1" fill="#352f29" fill-opacity="0.5" />
+
+  <text x="8" y="54" fill="#8a9161">                 'c.</text>
+<text x="8" y="67" fill="#8a9161">              ,xNMM.</text>
+<text x="8" y="80" fill="#bd9858">            .OMMMMo</text>
+<text x="8" y="93" fill="#bd9858">            OMMM0,</text>
+<text x="8" y="106" fill="#b5655d">   .;loddo:' loolloddol;.</text>
+<text x="8" y="119" fill="#b5655d"> cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
+<text x="8" y="132" fill="#7890aa">.KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
+<text x="8" y="145" fill="#7890aa">XMMMMMMMMMMMMMMMMMMMMMMMX.</text>
+<text x="8" y="158" fill="#6f9891">;MMMMMMMMMMMMMMMMMMMMMMMM:</text>
+<text x="8" y="171" fill="#6f9891">:MMMMMMMMMMMMMMMMMMMMMMMM:</text>
+<text x="8" y="184" fill="#987fa2">.MMMMMMMMMMMMMMMMMMMMMMMMX.</text>
+<text x="8" y="197" fill="#987fa2"> kMMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
+<text x="8" y="210" fill="#8a9161"> .XMMMMMMMMMMMMMMMMMMMMMMMMMMk</text>
+<text x="8" y="223" fill="#8a9161">  .XMMMMMMMMMMMMMMMMMMMMMMMMK.</text>
+<text x="8" y="236" fill="#bd9858">    kMMMMMMMMMMMMMMMMMMMMMMd</text>
+<text x="8" y="249" fill="#bd9858">     ;KMMMMMMMWXXWMMMMMMMk.</text>
+<text x="8" y="262" fill="#b5655d">       .cooc,.    .,coo:.</text>
+  <text x="220" y="41" fill="#c27a48" font-weight="700">preview@dim-sum-theme</text>
+  <text x="220" y="48" fill="#352f29">---------------------</text>
+  <text x="220" y="54"><tspan fill="#987fa2" font-weight="700">Theme</tspan><tspan fill="#d1c6ba">: Dim Sum Sunset</tspan></text>
+<text x="220" y="67"><tspan fill="#987fa2" font-weight="700">Slug</tspan><tspan fill="#d1c6ba">: dim-sum-sunset</tspan></text>
+<text x="220" y="80"><tspan fill="#987fa2" font-weight="700">Mode</tspan><tspan fill="#d1c6ba">: dark</tspan></text>
+<text x="220" y="93"><tspan fill="#987fa2" font-weight="700">Targets</tspan><tspan fill="#d1c6ba">: Neovim, Ghostty</tspan></text>
+<text x="220" y="106"><tspan fill="#987fa2" font-weight="700">Also</tspan><tspan fill="#d1c6ba">: iTerm2, VS Code</tspan></text>
+<text x="220" y="119"><tspan fill="#987fa2" font-weight="700">Palette</tspan><tspan fill="#d1c6ba">: 16 ANSI colors</tspan></text>
+<text x="220" y="132"><tspan fill="#987fa2" font-weight="700">Background</tspan><tspan fill="#d1c6ba">: #151312</tspan></text>
+<text x="220" y="145"><tspan fill="#987fa2" font-weight="700">Foreground</tspan><tspan fill="#d1c6ba">: #d1c6ba</tspan></text>
+<text x="220" y="158"><tspan fill="#987fa2" font-weight="700">Accent</tspan><tspan fill="#d1c6ba">: #c27a48</tspan></text>
+<text x="220" y="171"><tspan fill="#987fa2" font-weight="700">Source</tspan><tspan fill="#d1c6ba">: scheme/dim-sum-sunset.json</tspan></text>
+<text x="220" y="184"><tspan fill="#987fa2" font-weight="700">Build</tspan><tspan fill="#d1c6ba">: npm run build</tspan></text>
+<text x="220" y="197"><tspan fill="#987fa2" font-weight="700">License</tspan><tspan fill="#d1c6ba">: MIT</tspan></text>
+
+  <text x="220" y="232" fill="#8d7d6f">ANSI</text>
+  <rect x="220" y="242" width="24" height="10" rx="1" fill="#151312"/>
+<rect x="251" y="242" width="24" height="10" rx="1" fill="#b5655d"/>
+<rect x="282" y="242" width="24" height="10" rx="1" fill="#8a9161"/>
+<rect x="313" y="242" width="24" height="10" rx="1" fill="#bd9858"/>
+<rect x="344" y="242" width="24" height="10" rx="1" fill="#7890aa"/>
+<rect x="375" y="242" width="24" height="10" rx="1" fill="#aa7488"/>
+<rect x="406" y="242" width="24" height="10" rx="1" fill="#6f9891"/>
+<rect x="437" y="242" width="24" height="10" rx="1" fill="#d1c6ba"/>
+<rect x="220" y="255" width="24" height="10" rx="1" fill="#61564d"/>
+<rect x="251" y="255" width="24" height="10" rx="1" fill="#cf786d"/>
+<rect x="282" y="255" width="24" height="10" rx="1" fill="#9da36f"/>
+<rect x="313" y="255" width="24" height="10" rx="1" fill="#d0aa68"/>
+<rect x="344" y="255" width="24" height="10" rx="1" fill="#8aa4bf"/>
+<rect x="375" y="255" width="24" height="10" rx="1" fill="#ad92b8"/>
+<rect x="406" y="255" width="24" height="10" rx="1" fill="#82aca5"/>
+<rect x="437" y="255" width="24" height="10" rx="1" fill="#efe1d1"/>
+  <text x="220" y="280" fill="#8d7d6f">Generated by scripts/screenshot.mjs</text>
+</svg>

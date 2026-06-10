@@ -1,0 +1,24 @@
+# Dim Sum Sunset
+# Generated from scheme/dim-sum-sunset.json
+palette = 0=#151312
+palette = 1=#b5655d
+palette = 2=#8a9161
+palette = 3=#bd9858
+palette = 4=#7890aa
+palette = 5=#aa7488
+palette = 6=#6f9891
+palette = 7=#d1c6ba
+palette = 8=#61564d
+palette = 9=#cf786d
+palette = 10=#9da36f
+palette = 11=#d0aa68
+palette = 12=#8aa4bf
+palette = 13=#ad92b8
+palette = 14=#82aca5
+palette = 15=#efe1d1
+background = #151312
+foreground = #d1c6ba
+cursor-color = #efe1d1
+cursor-text = #151312
+selection-background = #352f29
+selection-foreground = #efe1d1

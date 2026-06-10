@@ -1,0 +1,24 @@
+# Dim Sum Paper
+# Generated from scheme/dim-sum-paper.json
+palette = 0=#3b3832
+palette = 1=#985f5b
+palette = 2=#687a5a
+palette = 3=#8b7b52
+palette = 4=#637c99
+palette = 5=#766f8d
+palette = 6=#5f807d
+palette = 7=#e6e2d9
+palette = 8=#767168
+palette = 9=#af716c
+palette = 10=#788b69
+palette = 11=#9f8d60
+palette = 12=#748fac
+palette = 13=#8880a2
+palette = 14=#6f928e
+palette = 15=#f7f6f1
+background = #f7f6f1
+foreground = #4b4740
+cursor-color = #24231f
+cursor-text = #f7f6f1
+selection-background = #d8d3c8
+selection-foreground = #24231f
