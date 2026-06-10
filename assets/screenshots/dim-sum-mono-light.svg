@@ -1,65 +1,144 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace" font-size="10" xml:space="preserve" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace" xml:space="preserve" role="img" aria-labelledby="title desc">
   <title id="title">Dim Sum Mono Light terminal screenshot</title>
-  <desc id="desc">Terminal-style generated screenshot for Dim Sum Mono Light.</desc>
-  <rect x="0" y="0" width="500" height="300" fill="#f0eee8" />
+  <desc id="desc">Generated terminal-style screenshot with Go, TypeScript, Bash, Python, and ANSI color swatches for Dim Sum Mono Light.</desc>
+  <rect width="900" height="560" fill="#f0eee8"/>
+  <rect x="24" y="24" width="852" height="512" rx="22" fill="#e7e4dc" stroke="#cbc7bc"/>
+  <rect x="24" y="24" width="852" height="48" rx="22" fill="#dcddd4"/>
+  <rect x="24" y="71" width="852" height="1" fill="#cbc7bc"/>
 
-  <circle cx="12" cy="12" r="4" fill="#926767" />
-  <circle cx="25" cy="12" r="4" fill="#8d8260" />
-  <circle cx="38" cy="12" r="4" fill="#748064" />
+  <circle cx="50" cy="48" r="6" fill="#926767"/>
+  <circle cx="72" cy="48" r="6" fill="#8d8260"/>
+  <circle cx="94" cy="48" r="6" fill="#748064"/>
+  <text x="124" y="53" fill="#494640" font-size="14" font-weight="800">Dim Sum Mono Light</text>
+  <text x="852" y="53" fill="#746f66" font-size="12" text-anchor="end">dim-sum-mono-light · light</text>
 
-  <text x="90" y="15" fill="#746f66" font-size="8" text-anchor="middle">~</text>
-  <text x="138" y="16" font-size="14" fill="#494640">+</text>
-  <rect x="50" y="24" width="80" height="1" fill="#393630" />
-  <rect x="0" y="24" width="500" height="1" fill="#cbc7bc" fill-opacity="0.5" />
+  <text x="52" y="104" fill="#393630" font-size="14" font-weight="800">preview@dim-sum-theme</text>
+  <text x="252" y="104" fill="#746f66" font-size="12">code samples + terminal swatches</text>
 
-  <text x="8" y="54" fill="#748064">                 'c.</text>
-<text x="8" y="67" fill="#748064">              ,xNMM.</text>
-<text x="8" y="80" fill="#8d8260">            .OMMMMo</text>
-<text x="8" y="93" fill="#8d8260">            OMMM0,</text>
-<text x="8" y="106" fill="#926767">   .;loddo:' loolloddol;.</text>
-<text x="8" y="119" fill="#926767"> cKMMMMMMMMMMNWMMMMMMMMMM0:</text>
-<text x="8" y="132" fill="#6c7687">.KMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
-<text x="8" y="145" fill="#6c7687">XMMMMMMMMMMMMMMMMMMMMMMMX.</text>
-<text x="8" y="158" fill="#657f7c">;MMMMMMMMMMMMMMMMMMMMMMMM:</text>
-<text x="8" y="171" fill="#657f7c">:MMMMMMMMMMMMMMMMMMMMMMMM:</text>
-<text x="8" y="184" fill="#7e7488">.MMMMMMMMMMMMMMMMMMMMMMMMX.</text>
-<text x="8" y="197" fill="#7e7488"> kMMMMMMMMMMMMMMMMMMMMMMMMWd.</text>
-<text x="8" y="210" fill="#748064"> .XMMMMMMMMMMMMMMMMMMMMMMMMMMk</text>
-<text x="8" y="223" fill="#748064">  .XMMMMMMMMMMMMMMMMMMMMMMMMK.</text>
-<text x="8" y="236" fill="#8d8260">    kMMMMMMMMMMMMMMMMMMMMMMd</text>
-<text x="8" y="249" fill="#8d8260">     ;KMMMMMMMWXXWMMMMMMMk.</text>
-<text x="8" y="262" fill="#926767">       .cooc,.    .,coo:.</text>
-  <text x="220" y="41" fill="#393630" font-weight="700">preview@dim-sum-theme</text>
-  <text x="220" y="48" fill="#cbc7bc">---------------------</text>
-  <text x="220" y="54"><tspan fill="#393630" font-weight="700">Theme</tspan><tspan fill="#494640">: Dim Sum Mono Light</tspan></text>
-<text x="220" y="67"><tspan fill="#393630" font-weight="700">Slug</tspan><tspan fill="#494640">: dim-sum-mono-light</tspan></text>
-<text x="220" y="80"><tspan fill="#393630" font-weight="700">Mode</tspan><tspan fill="#494640">: light</tspan></text>
-<text x="220" y="93"><tspan fill="#393630" font-weight="700">Targets</tspan><tspan fill="#494640">: Neovim, Ghostty</tspan></text>
-<text x="220" y="106"><tspan fill="#393630" font-weight="700">Also</tspan><tspan fill="#494640">: iTerm2, VS Code</tspan></text>
-<text x="220" y="119"><tspan fill="#393630" font-weight="700">Palette</tspan><tspan fill="#494640">: 16 ANSI colors</tspan></text>
-<text x="220" y="132"><tspan fill="#393630" font-weight="700">Background</tspan><tspan fill="#494640">: #f0eee8</tspan></text>
-<text x="220" y="145"><tspan fill="#393630" font-weight="700">Foreground</tspan><tspan fill="#494640">: #494640</tspan></text>
-<text x="220" y="158"><tspan fill="#393630" font-weight="700">Accent</tspan><tspan fill="#494640">: #393630</tspan></text>
-<text x="220" y="171"><tspan fill="#393630" font-weight="700">Source</tspan><tspan fill="#494640">: scheme/dim-sum-mono-light.json</tspan></text>
-<text x="220" y="184"><tspan fill="#393630" font-weight="700">Build</tspan><tspan fill="#494640">: npm run build</tspan></text>
-<text x="220" y="197"><tspan fill="#393630" font-weight="700">License</tspan><tspan fill="#494640">: MIT</tspan></text>
+  <g>
+  <rect x="52" y="122" width="385" height="126" rx="14" fill="#f0eee8" stroke="#cbc7bc"/>
+  <rect x="52" y="122" width="385" height="31" rx="14" fill="#e7e4dc"/>
+  <rect x="52" y="152" width="385" height="1" fill="#cbc7bc"/>
+  <text x="70" y="143" fill="#746f66" font-size="11">theme.go</text>
+  <text x="74" y="171" text-anchor="end" fill="#9a9488" font-size="11">1</text>
+<text x="90" y="171" font-size="13"><tspan fill="#393630" font-weight="700" font-style="normal">package</tspan><tspan fill="#494640" font-weight="400" font-style="normal"> theme</tspan></text>
+<text x="74" y="192" text-anchor="end" fill="#9a9488" font-size="11">2</text>
+<text x="90" y="192" font-size="13"><tspan fill="#393630" font-weight="700" font-style="normal">func</tspan><tspan fill="#393630" font-weight="400" font-style="normal"> Accent</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">(</tspan><tspan fill="#494640" font-weight="400" font-style="normal">name </tspan><tspan fill="#393630" font-weight="400" font-style="normal">string</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">) </tspan><tspan fill="#393630" font-weight="400" font-style="normal">string</tspan><tspan fill="#746f66" font-weight="400" font-style="normal"> {</tspan></text>
+<text x="74" y="213" text-anchor="end" fill="#9a9488" font-size="11">3</text>
+<text x="90" y="213" font-size="13"><tspan fill="#393630" font-weight="400" font-style="normal">  return </tspan><tspan fill="#494640" font-weight="400" font-style="normal">palette</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">[</tspan><tspan fill="#494640" font-weight="400" font-style="normal">name</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">]</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">.</tspan><tspan fill="#494640" font-weight="400" font-style="normal">Accent</tspan></text>
+<text x="74" y="234" text-anchor="end" fill="#9a9488" font-size="11">4</text>
+<text x="90" y="234" font-size="13"><tspan fill="#746f66" font-weight="400" font-style="normal">}</tspan><tspan fill="#746f66" font-weight="400" font-style="italic"> // tiny Go sample</tspan></text>
+</g>
+  <g>
+  <rect x="463" y="122" width="385" height="126" rx="14" fill="#f0eee8" stroke="#cbc7bc"/>
+  <rect x="463" y="122" width="385" height="31" rx="14" fill="#e7e4dc"/>
+  <rect x="463" y="152" width="385" height="1" fill="#cbc7bc"/>
+  <text x="481" y="143" fill="#746f66" font-size="11">theme.ts</text>
+  <text x="485" y="171" text-anchor="end" fill="#9a9488" font-size="11">1</text>
+<text x="501" y="171" font-size="13"><tspan fill="#393630" font-weight="700" font-style="normal">const</tspan><tspan fill="#494640" font-weight="400" font-style="normal"> theme</tspan><tspan fill="#393630" font-weight="400" font-style="normal"> = </tspan><tspan fill="#393630" font-weight="400" font-style="normal">loadTheme</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">(</tspan><tspan fill="#494640" font-weight="400" font-style="normal">'dim-sum-mono-light'</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">);</tspan></text>
+<text x="485" y="192" text-anchor="end" fill="#9a9488" font-size="11">2</text>
+<text x="501" y="192" font-size="13"><tspan fill="#393630" font-weight="700" font-style="normal">export</tspan><tspan fill="#393630" font-weight="400" font-style="normal"> function</tspan><tspan fill="#393630" font-weight="400" font-style="normal"> apply</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">(</tspan><tspan fill="#494640" font-weight="400" font-style="normal">target</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">: </tspan><tspan fill="#393630" font-weight="400" font-style="normal">Terminal</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">) {</tspan></text>
+<text x="485" y="213" text-anchor="end" fill="#9a9488" font-size="11">3</text>
+<text x="501" y="213" font-size="13"><tspan fill="#393630" font-weight="400" font-style="normal">  return </tspan><tspan fill="#494640" font-weight="400" font-style="normal">target</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">.</tspan><tspan fill="#393630" font-weight="400" font-style="normal">with</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">({ </tspan><tspan fill="#494640" font-weight="400" font-style="normal">bg</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">: </tspan><tspan fill="#494640" font-weight="400" font-style="normal">theme</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">.</tspan><tspan fill="#494640" font-weight="400" font-style="normal">bg</tspan><tspan fill="#746f66" font-weight="400" font-style="normal"> });</tspan></text>
+<text x="485" y="234" text-anchor="end" fill="#9a9488" font-size="11">4</text>
+<text x="501" y="234" font-size="13"><tspan fill="#746f66" font-weight="400" font-style="normal">}</tspan><tspan fill="#746f66" font-weight="400" font-style="italic"> // TypeScript preview</tspan></text>
+</g>
+  <g>
+  <rect x="52" y="272" width="385" height="126" rx="14" fill="#f0eee8" stroke="#cbc7bc"/>
+  <rect x="52" y="272" width="385" height="31" rx="14" fill="#e7e4dc"/>
+  <rect x="52" y="302" width="385" height="1" fill="#cbc7bc"/>
+  <text x="70" y="293" fill="#746f66" font-size="11">build.sh</text>
+  <text x="74" y="321" text-anchor="end" fill="#9a9488" font-size="11">1</text>
+<text x="90" y="321" font-size="13"><tspan fill="#746f66" font-weight="400" font-style="italic">#!/usr/bin/env bash</tspan></text>
+<text x="74" y="342" text-anchor="end" fill="#9a9488" font-size="11">2</text>
+<text x="90" y="342" font-size="13"><tspan fill="#393630" font-weight="700" font-style="normal">set</tspan><tspan fill="#494640" font-weight="400" font-style="normal"> -euo pipefail</tspan></text>
+<text x="74" y="363" text-anchor="end" fill="#9a9488" font-size="11">3</text>
+<text x="90" y="363" font-size="13"><tspan fill="#494640" font-weight="400" font-style="normal">theme</tspan><tspan fill="#393630" font-weight="400" font-style="normal">=</tspan><tspan fill="#494640" font-weight="400" font-style="normal">&quot;${1:-</tspan><tspan fill="#494640" font-weight="400" font-style="normal">dim-sum-mono-light</tspan><tspan fill="#494640" font-weight="400" font-style="normal">}&quot;</tspan></text>
+<text x="74" y="384" text-anchor="end" fill="#9a9488" font-size="11">4</text>
+<text x="90" y="384" font-size="13"><tspan fill="#393630" font-weight="400" font-style="normal">printf</tspan><tspan fill="#494640" font-weight="400" font-style="normal"> </tspan><tspan fill="#494640" font-weight="400" font-style="normal">'building %s\n'</tspan><tspan fill="#494640" font-weight="400" font-style="normal"> </tspan><tspan fill="#494640" font-weight="400" font-style="normal">&quot;$theme&quot;</tspan></text>
+</g>
+  <g>
+  <rect x="463" y="272" width="385" height="126" rx="14" fill="#f0eee8" stroke="#cbc7bc"/>
+  <rect x="463" y="272" width="385" height="31" rx="14" fill="#e7e4dc"/>
+  <rect x="463" y="302" width="385" height="1" fill="#cbc7bc"/>
+  <text x="481" y="293" fill="#746f66" font-size="11">palette.py</text>
+  <text x="485" y="321" text-anchor="end" fill="#9a9488" font-size="11">1</text>
+<text x="501" y="321" font-size="13"><tspan fill="#393630" font-weight="700" font-style="normal">from</tspan><tspan fill="#494640" font-weight="400" font-style="normal"> pathlib </tspan><tspan fill="#393630" font-weight="700" font-style="normal">import</tspan><tspan fill="#393630" font-weight="400" font-style="normal"> Path</tspan></text>
+<text x="485" y="342" text-anchor="end" fill="#9a9488" font-size="11">2</text>
+<text x="501" y="342" font-size="13"><tspan fill="#393630" font-weight="700" font-style="normal">def</tspan><tspan fill="#393630" font-weight="400" font-style="normal"> load_theme</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">(</tspan><tspan fill="#494640" font-weight="400" font-style="normal">slug</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">: </tspan><tspan fill="#393630" font-weight="400" font-style="normal">str</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">) -&gt; </tspan><tspan fill="#393630" font-weight="400" font-style="normal">dict</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">:</tspan></text>
+<text x="485" y="363" text-anchor="end" fill="#9a9488" font-size="11">3</text>
+<text x="501" y="363" font-size="13"><tspan fill="#494640" font-weight="400" font-style="normal">    file</tspan><tspan fill="#393630" font-weight="400" font-style="normal"> = </tspan><tspan fill="#393630" font-weight="400" font-style="normal">Path</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">(</tspan><tspan fill="#494640" font-weight="400" font-style="normal">&quot;scheme&quot;</tspan><tspan fill="#393630" font-weight="400" font-style="normal">) / </tspan><tspan fill="#494640" font-weight="400" font-style="normal">f&quot;{slug}.json&quot;</tspan></text>
+<text x="485" y="384" text-anchor="end" fill="#9a9488" font-size="11">4</text>
+<text x="501" y="384" font-size="13"><tspan fill="#393630" font-weight="400" font-style="normal">    return </tspan><tspan fill="#393630" font-weight="400" font-style="normal">read_json</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">(</tspan><tspan fill="#494640" font-weight="400" font-style="normal">file</tspan><tspan fill="#746f66" font-weight="400" font-style="normal">)</tspan></text>
+</g>
 
-  <text x="220" y="232" fill="#746f66">ANSI</text>
-  <rect x="220" y="242" width="24" height="10" rx="1" fill="#393630"/>
-<rect x="251" y="242" width="24" height="10" rx="1" fill="#926767"/>
-<rect x="282" y="242" width="24" height="10" rx="1" fill="#748064"/>
-<rect x="313" y="242" width="24" height="10" rx="1" fill="#8d8260"/>
-<rect x="344" y="242" width="24" height="10" rx="1" fill="#6c7687"/>
-<rect x="375" y="242" width="24" height="10" rx="1" fill="#7e7488"/>
-<rect x="406" y="242" width="24" height="10" rx="1" fill="#657f7c"/>
-<rect x="437" y="242" width="24" height="10" rx="1" fill="#dcddd4"/>
-<rect x="220" y="255" width="24" height="10" rx="1" fill="#746f66"/>
-<rect x="251" y="255" width="24" height="10" rx="1" fill="#a87878"/>
-<rect x="282" y="255" width="24" height="10" rx="1" fill="#849273"/>
-<rect x="313" y="255" width="24" height="10" rx="1" fill="#a09470"/>
-<rect x="344" y="255" width="24" height="10" rx="1" fill="#7d889c"/>
-<rect x="375" y="255" width="24" height="10" rx="1" fill="#90849c"/>
-<rect x="406" y="255" width="24" height="10" rx="1" fill="#75918d"/>
-<rect x="437" y="255" width="24" height="10" rx="1" fill="#f0eee8"/>
-  <text x="220" y="280" fill="#746f66">Generated by scripts/screenshot.mjs</text>
+  <g>
+  <text x="64" y="438" fill="#494640" font-size="13" font-weight="700">ANSI palette</text>
+  <text x="164" y="438" fill="#746f66" font-size="12">normal and bright swatches</text>
+  <g>
+  <rect x="64" y="452" width="78" height="22" rx="5" fill="#393630" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="103" y="467" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">00</text>
+</g>
+<g>
+  <rect x="160" y="452" width="78" height="22" rx="5" fill="#926767" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="199" y="467" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">01</text>
+</g>
+<g>
+  <rect x="256" y="452" width="78" height="22" rx="5" fill="#748064" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="295" y="467" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">02</text>
+</g>
+<g>
+  <rect x="352" y="452" width="78" height="22" rx="5" fill="#8d8260" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="391" y="467" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">03</text>
+</g>
+<g>
+  <rect x="448" y="452" width="78" height="22" rx="5" fill="#6c7687" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="487" y="467" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">04</text>
+</g>
+<g>
+  <rect x="544" y="452" width="78" height="22" rx="5" fill="#7e7488" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="583" y="467" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">05</text>
+</g>
+<g>
+  <rect x="640" y="452" width="78" height="22" rx="5" fill="#657f7c" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="679" y="467" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">06</text>
+</g>
+<g>
+  <rect x="736" y="452" width="78" height="22" rx="5" fill="#dcddd4" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="775" y="467" text-anchor="middle" fill="#161616" font-size="10" font-weight="700">07</text>
+</g>
+<g>
+  <rect x="64" y="487" width="78" height="22" rx="5" fill="#746f66" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="103" y="502" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">08</text>
+</g>
+<g>
+  <rect x="160" y="487" width="78" height="22" rx="5" fill="#a87878" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="199" y="502" text-anchor="middle" fill="#f7f7f2" font-size="10" font-weight="700">09</text>
+</g>
+<g>
+  <rect x="256" y="487" width="78" height="22" rx="5" fill="#849273" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="295" y="502" text-anchor="middle" fill="#161616" font-size="10" font-weight="700">10</text>
+</g>
+<g>
+  <rect x="352" y="487" width="78" height="22" rx="5" fill="#a09470" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="391" y="502" text-anchor="middle" fill="#161616" font-size="10" font-weight="700">11</text>
+</g>
+<g>
+  <rect x="448" y="487" width="78" height="22" rx="5" fill="#7d889c" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="487" y="502" text-anchor="middle" fill="#161616" font-size="10" font-weight="700">12</text>
+</g>
+<g>
+  <rect x="544" y="487" width="78" height="22" rx="5" fill="#90849c" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="583" y="502" text-anchor="middle" fill="#161616" font-size="10" font-weight="700">13</text>
+</g>
+<g>
+  <rect x="640" y="487" width="78" height="22" rx="5" fill="#75918d" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="679" y="502" text-anchor="middle" fill="#161616" font-size="10" font-weight="700">14</text>
+</g>
+<g>
+  <rect x="736" y="487" width="78" height="22" rx="5" fill="#f0eee8" stroke="#cbc7bc" stroke-opacity="0.55"/>
+  <text x="775" y="502" text-anchor="middle" fill="#161616" font-size="10" font-weight="700">15</text>
+</g>
+</g>
+  <text x="836" y="516" fill="#746f66" font-size="11" text-anchor="end">Generated by scripts/screenshot.mjs</text>
 </svg>

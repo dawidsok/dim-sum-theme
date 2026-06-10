@@ -1,6 +1,12 @@
-# Dim Sum
+<p align="center">
+  <img src="assets/logo.png" alt="Dim Sum logo" width="160">
+</p>
 
-Dim Sum is a family of dim themes for terminals and editors. The palettes favor calm UI surfaces, muted syntax colors, and only subtle warmth.
+<h1 align="center">Dim Sum</h1>
+
+<p align="center">
+  A family of dim themes for terminals and editors. The palettes favor calm UI surfaces, muted syntax colors, and only subtle warmth.
+</p>
 
 Supported targets:
 
