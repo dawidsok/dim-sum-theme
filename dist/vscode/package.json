@@ -18,9 +18,14 @@
         "path": "./themes/dim-sum-color-theme.json"
       },
       {
-        "label": "Dim Sum Mono Dark",
+        "label": "Dim Sum Darker",
         "uiTheme": "vs-dark",
-        "path": "./themes/dim-sum-mono-dark-color-theme.json"
+        "path": "./themes/dim-sum-darker-color-theme.json"
+      },
+      {
+        "label": "Dim Sum Mono",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dim-sum-mono-color-theme.json"
       },
       {
         "label": "Dim Sum Mono Light",

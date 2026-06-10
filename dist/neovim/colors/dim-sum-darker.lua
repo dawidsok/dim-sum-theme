@@ -1,12 +1,12 @@
--- Dim Sum Mono Dark
--- Generated from scheme/dim-sum-mono-dark.json. Do not edit generated output directly.
+-- Dim Sum Darker
+-- Generated from scheme/dim-sum-darker.json. Do not edit generated output directly.
 vim.cmd.highlight("clear")
 
 if vim.fn.exists("syntax_on") == 1 then
   vim.cmd.syntax("reset")
 end
 
-vim.g.colors_name = "dim-sum-mono-dark"
+vim.g.colors_name = "dim-sum-darker"
 vim.o.background = "dark"
 
 vim.g.terminal_color_0 = "#111111"

@@ -21,7 +21,7 @@ function schemeFiles() {
     .sort((a, b) => {
       if (a === 'dim-sum.json') return -1;
       if (b === 'dim-sum.json') return 1;
-      return a.localeCompare(b);
+      return a.replace(/\.json$/, '').localeCompare(b.replace(/\.json$/, ''));
     });
 }
 

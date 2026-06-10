@@ -1,0 +1,24 @@
+# Dim Sum Mono
+# Generated from scheme/dim-sum-mono.json
+palette = 0=#0f0f0f
+palette = 1=#9a9a9a
+palette = 2=#b8b8b8
+palette = 3=#b0b0b0
+palette = 4=#acacac
+palette = 5=#a0a0a0
+palette = 6=#c0c0c0
+palette = 7=#d0d0d0
+palette = 8=#5e5e5e
+palette = 9=#b4b4b4
+palette = 10=#c6c6c6
+palette = 11=#d6d6d6
+palette = 12=#bebebe
+palette = 13=#cacaca
+palette = 14=#d0d0d0
+palette = 15=#f2f2f2
+background = #0f0f0f
+foreground = #d0d0d0
+cursor-color = #f2f2f2
+cursor-text = #0f0f0f
+selection-background = #2e2e2e
+selection-foreground = #f2f2f2

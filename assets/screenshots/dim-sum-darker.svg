@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace" xml:space="preserve" role="img" aria-labelledby="title desc">
-  <title id="title">Dim Sum Mono Dark terminal screenshot</title>
-  <desc id="desc">Generated terminal-style screenshot with Go, TypeScript, Bash, Python, and ANSI color swatches for Dim Sum Mono Dark.</desc>
+  <title id="title">Dim Sum Darker terminal screenshot</title>
+  <desc id="desc">Generated terminal-style screenshot with Go, TypeScript, Bash, Python, and ANSI color swatches for Dim Sum Darker.</desc>
   <rect width="900" height="560" fill="#111111"/>
   <rect x="24" y="24" width="852" height="512" rx="22" fill="#1a1a1a" stroke="#303030"/>
   <rect x="24" y="24" width="852" height="48" rx="22" fill="#242424"/>
@@ -9,8 +9,8 @@
   <circle cx="50" cy="48" r="6" fill="#a46f6f"/>
   <circle cx="72" cy="48" r="6" fill="#a49a6f"/>
   <circle cx="94" cy="48" r="6" fill="#82906f"/>
-  <text x="124" y="53" fill="#c9c9c9" font-size="14" font-weight="800">Dim Sum Mono Dark</text>
-  <text x="852" y="53" fill="#858585" font-size="12" text-anchor="end">dim-sum-mono-dark · dark</text>
+  <text x="124" y="53" fill="#c9c9c9" font-size="14" font-weight="800">Dim Sum Darker</text>
+  <text x="852" y="53" fill="#858585" font-size="12" text-anchor="end">dim-sum-darker · dark</text>
 
   <text x="52" y="104" fill="#d8d8d8" font-size="14" font-weight="800">preview@dim-sum-theme</text>
   <text x="252" y="104" fill="#858585" font-size="12">code samples + terminal swatches</text>
@@ -35,7 +35,7 @@
   <rect x="463" y="152" width="385" height="1" fill="#303030"/>
   <text x="481" y="143" fill="#858585" font-size="11">theme.ts</text>
   <text x="485" y="171" text-anchor="end" fill="#565656" font-size="11">1</text>
-<text x="501" y="171" font-size="13"><tspan fill="#d8d8d8" font-weight="700" font-style="normal">const</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal"> theme</tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal"> = </tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal">loadTheme</tspan><tspan fill="#858585" font-weight="400" font-style="normal">(</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">'dim-sum-mono-dark'</tspan><tspan fill="#858585" font-weight="400" font-style="normal">);</tspan></text>
+<text x="501" y="171" font-size="13"><tspan fill="#d8d8d8" font-weight="700" font-style="normal">const</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal"> theme</tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal"> = </tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal">loadTheme</tspan><tspan fill="#858585" font-weight="400" font-style="normal">(</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">'dim-sum-darker'</tspan><tspan fill="#858585" font-weight="400" font-style="normal">);</tspan></text>
 <text x="485" y="192" text-anchor="end" fill="#565656" font-size="11">2</text>
 <text x="501" y="192" font-size="13"><tspan fill="#d8d8d8" font-weight="700" font-style="normal">export</tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal"> function</tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal"> apply</tspan><tspan fill="#858585" font-weight="400" font-style="normal">(</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">target</tspan><tspan fill="#858585" font-weight="400" font-style="normal">: </tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal">Terminal</tspan><tspan fill="#858585" font-weight="400" font-style="normal">) {</tspan></text>
 <text x="485" y="213" text-anchor="end" fill="#565656" font-size="11">3</text>
@@ -53,7 +53,7 @@
 <text x="74" y="342" text-anchor="end" fill="#565656" font-size="11">2</text>
 <text x="90" y="342" font-size="13"><tspan fill="#d8d8d8" font-weight="700" font-style="normal">set</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal"> -euo pipefail</tspan></text>
 <text x="74" y="363" text-anchor="end" fill="#565656" font-size="11">3</text>
-<text x="90" y="363" font-size="13"><tspan fill="#c9c9c9" font-weight="400" font-style="normal">theme</tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal">=</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">&quot;${1:-</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">dim-sum-mono-dark</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">}&quot;</tspan></text>
+<text x="90" y="363" font-size="13"><tspan fill="#c9c9c9" font-weight="400" font-style="normal">theme</tspan><tspan fill="#d8d8d8" font-weight="400" font-style="normal">=</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">&quot;${1:-</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">dim-sum-darker</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">}&quot;</tspan></text>
 <text x="74" y="384" text-anchor="end" fill="#565656" font-size="11">4</text>
 <text x="90" y="384" font-size="13"><tspan fill="#d8d8d8" font-weight="400" font-style="normal">printf</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal"> </tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">'building %s\n'</tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal"> </tspan><tspan fill="#c9c9c9" font-weight="400" font-style="normal">&quot;$theme&quot;</tspan></text>
 </g>

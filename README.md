@@ -19,7 +19,25 @@ Supported targets:
 
 ### Dim Sum
 
+The default dim dark palette with subtle warmth.
+
 ![Dim Sum terminal screenshot](assets/screenshots/dim-sum.svg)
+
+### Dim Sum Darker
+
+A darker restrained variant with grayscale UI and low-saturation semantic accents.
+
+![Dim Sum Darker terminal screenshot](assets/screenshots/dim-sum-darker.svg)
+
+### Dim Sum Mono
+
+A strictly greyscale dark variant for UI and code syntax.
+
+![Dim Sum Mono terminal screenshot](assets/screenshots/dim-sum-mono.svg)
+
+### Dim Sum Mono Light
+
+![Dim Sum Mono Light terminal screenshot](assets/screenshots/dim-sum-mono-light.svg)
 
 ### Dim Sum Paper
 
@@ -39,23 +57,16 @@ A dim dark variant with subtle dusk warmth and ember accents.
 
 ![Dim Sum Sunset terminal screenshot](assets/screenshots/dim-sum-sunset.svg)
 
-### Dim Sum Mono Dark
-
-![Dim Sum Mono Dark terminal screenshot](assets/screenshots/dim-sum-mono-dark.svg)
-
-### Dim Sum Mono Light
-
-![Dim Sum Mono Light terminal screenshot](assets/screenshots/dim-sum-mono-light.svg)
-
 Available slugs:
 
 ```text
 dim-sum
+dim-sum-darker
+dim-sum-mono
+dim-sum-mono-light
 dim-sum-paper
 dim-sum-wave
 dim-sum-sunset
-dim-sum-mono-dark
-dim-sum-mono-light
 ```
 
 ## Install
