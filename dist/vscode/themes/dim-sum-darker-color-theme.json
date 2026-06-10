@@ -73,7 +73,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#d8d8d8"
+        "foreground": "#8d8298"
       }
     },
     {
@@ -83,7 +83,7 @@
         "meta.function-call"
       ],
       "settings": {
-        "foreground": "#d8d8d8"
+        "foreground": "#7b8798"
       }
     },
     {
@@ -92,7 +92,7 @@
         "constant.other.symbol"
       ],
       "settings": {
-        "foreground": "#c9c9c9"
+        "foreground": "#82906f"
       }
     },
     {
@@ -102,7 +102,7 @@
         "variable.language"
       ],
       "settings": {
-        "foreground": "#c9c9c9"
+        "foreground": "#a4876f"
       }
     },
     {
@@ -112,7 +112,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#d8d8d8"
+        "foreground": "#71908d"
       }
     },
     {
@@ -122,7 +122,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#c9c9c9"
+        "foreground": "#71908d"
       }
     },
     {
@@ -147,7 +147,7 @@
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#d8d8d8"
+        "foreground": "#7b8798"
       }
     },
     {
@@ -177,22 +177,22 @@
     }
   ],
   "semanticTokenColors": {
-    "namespace": "#d8d8d8",
-    "class": "#d8d8d8",
-    "enum": "#d8d8d8",
-    "interface": "#d8d8d8",
-    "struct": "#d8d8d8",
-    "typeParameter": "#d8d8d8",
+    "namespace": "#a49a6f",
+    "class": "#71908d",
+    "enum": "#71908d",
+    "interface": "#71908d",
+    "struct": "#71908d",
+    "typeParameter": "#71908d",
     "parameter": "#d8d8d8",
     "variable": "#c9c9c9",
-    "property": "#c9c9c9",
-    "enumMember": "#c9c9c9",
-    "function": "#d8d8d8",
-    "method": "#d8d8d8",
-    "macro": "#d8d8d8",
-    "keyword": "#d8d8d8",
-    "string": "#c9c9c9",
-    "number": "#c9c9c9",
+    "property": "#71908d",
+    "enumMember": "#a4876f",
+    "function": "#7b8798",
+    "method": "#7b8798",
+    "macro": "#a49a6f",
+    "keyword": "#8d8298",
+    "string": "#82906f",
+    "number": "#a4876f",
     "comment": "#858585"
   }
 }
